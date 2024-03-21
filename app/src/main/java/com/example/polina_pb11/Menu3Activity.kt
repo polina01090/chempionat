@@ -11,7 +11,7 @@ class Menu3Activity : AppCompatActivity() {
         setContentView(R.layout.activity_menu3)
     }
     fun login(view: View) {
-        val intent = Intent(this@Menu3Activity, LoginActivity::class.java)
+        val intent = Intent(this@Menu3Activity, SignUpActivity::class.java)
         startActivity(intent)
         finish()
     }

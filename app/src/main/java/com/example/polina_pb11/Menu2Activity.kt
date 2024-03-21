@@ -12,7 +12,7 @@ class Menu2Activity : AppCompatActivity() {
     }
 
     fun skip2(view: View) {
-        val intent = Intent(this@Menu2Activity, LoginActivity::class.java)
+        val intent = Intent(this@Menu2Activity, SignUpActivity::class.java)
         startActivity(intent)
         finish()
     }
